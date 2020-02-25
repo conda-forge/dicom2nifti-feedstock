@@ -1,6 +1,6 @@
 {% set name = "dicom2nifti" %}
-{% set version = "2.2.2" %}
-{% set sha256 = "d61407582e8cc9c34e6276165b9e6110cdff00cbb928b7da9fbf5f59498cce85" %}
+{% set version = "2.2.3" %}
+{% set sha256 = "d69dab94bc8b82c79d911eba7319de114b4bd013fe65240121fc66a3844748f9" %}
 
 package:
   name: {{ name|lower }}
@@ -37,7 +37,7 @@ about:
   license_file: LICENSE
   summary: 'Python library for converting dicom files to nifti'
   description: 'Python library for converting dicom files to nifti'
-  doc_url: https://dicom2nifti.readthedocs.io/en/latest/
+  doc_url: https://icometrix.github.io/dicom2nifti/
   dev_url: http://github.com/icometrix/dicom2nifti
 
 extra:
