@@ -1,6 +1,6 @@
 {% set name = "dicom2nifti" %}
-{% set version = "2.2.3" %}
-{% set sha256 = "d69dab94bc8b82c79d911eba7319de114b4bd013fe65240121fc66a3844748f9" %}
+{% set version = "2.2.4" %}
+{% set sha256 = "4ceacba5c884ecb3396c508d0eb94814d08fcaad6b4913109c3c07cfa0955c54" %}
 
 package:
   name: {{ name|lower }}
