@@ -5,9 +5,13 @@ Home: http://github.com/icometrix/dicom2nifti
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dicom2nifti-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python library for converting dicom files to nifti
+
+Development: http://github.com/icometrix/dicom2nifti
+
+Documentation: https://icometrix.github.io/dicom2nifti/
 
 Python library for converting dicom files to nifti
 
