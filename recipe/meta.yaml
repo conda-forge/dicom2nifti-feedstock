@@ -19,6 +19,7 @@ requirements:
   build:
     - python
     - pip
+    - setuptools
   run:
     - python
     - pydicom
@@ -29,7 +30,9 @@ requirements:
 test:
   imports:
     - dicom2nifti
-
+  requires:
+    - setuptools
+  
 about:
   home: http://github.com/icometrix/dicom2nifti
   license: MIT
