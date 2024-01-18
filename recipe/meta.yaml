@@ -13,10 +13,10 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
     - setuptools
@@ -33,7 +33,7 @@ test:
     - dicom2nifti
   requires:
     - setuptools
-  
+
 about:
   home: http://github.com/icometrix/dicom2nifti
   license: MIT
