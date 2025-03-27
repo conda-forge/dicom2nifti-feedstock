@@ -1,5 +1,6 @@
 {% set name = "dicom2nifti" %}
 {% set version = "2.6.0" %}
+{% set python_min = '3.10' %}
 {% set sha256 = "ec13cb1b72afcd89fb99c77461603023a8d9888f9ba8a58fc7d49b78f8bf5a48" %}
 
 package:
@@ -17,11 +18,11 @@ build:
 
 requirements:
   build:
-    - python
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python
+    - python {{ python_min }}
     - pydicom >=3.0.0
     - gdcm
     - numpy
