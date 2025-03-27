@@ -13,11 +13,11 @@ source:
 
 build:
   noarch: python
-  number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 1
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python {{ python_min }}
     - pip
     - setuptools
@@ -34,6 +34,7 @@ test:
     - dicom2nifti
   requires:
     - setuptools
+    - python {{ python_min }}
   
 about:
   home: http://github.com/icometrix/dicom2nifti
